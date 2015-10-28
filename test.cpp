@@ -24,13 +24,13 @@ void main()
 	timer.Start();
 
 	::Sleep(5000);
-	/*
+	
 	for(; i > 0; i--)
 	{
 		cout << "hello" << endl;
 		::Sleep(1000);
 	}
-	*/
+	
 	timer.Cancel();
 	system("pause");
 }
